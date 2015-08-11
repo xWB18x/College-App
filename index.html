@@ -1,30 +1,41 @@
 <!DOCTYPE html>
 <html lang="en">
 
+<link href="http://s3.amazonaws.com/codecademy-content/courses/ltp/css/bootstrap.css" rel="stylesheet">
+
+<link rel="stylesheet" href="main.css">
+
+
 <style>
     .Nav li   {
         display: inline;
         padding-top:10px;
         padding-left:0px;
-        padding-right:200px;
+        padding-right:100px;
         padding-bottom:10px;
               }
-        
-    .names    {
-       color: red;
+              
+    .welcome  {
+        background-color:#FFFFFF;
+        border:5px solid grey;
+              }
+    
+    .Names    {
+       color: blue;
        right:100px;
+       font-family:"Comic Sans MS", cursive, sans-serif;
               }
               
     p         {
-        color:green;
+        color:black;
               }
     
     h3        {
         color:red;
               }
-        
+               
     body      {
-        background-color:papayawhip;
+        background-color:#00CCCC;
               }
             
     .Nav      {
@@ -33,149 +44,293 @@
 
     .icon li  {
         display:inline;
-        padding-top:10px;
+        padding-top:0px;
         padding-bottom:0px;
-        padding-left:px;
-        padding-right:225px;
+        padding-left:20px;
+        padding-right:95px;
               }
               
     .icon     {
         background-color:grey;
+        border:5px solid black;
               }
+              
+    .PI       {
+        padding-left:75px;
+              }
+              
+    .Major    {
+        background-color:white; 
+        border:5px solid grey;
+        padding-left:10px;
+              }
+              
+    .aid      {
+        background-color:#FFFFFF;
+        border:5px solid grey;
+        padding-left:10px;
+              }
+
+    .col_tittle{
+        background-color:#FFFFFF;
+        border:5px solid grey;
+        padding-left:725px;
+    }
+
+    .col-md-3 {
+        background-color:white;
+        border:5px solid grey;
+              }
+    
+    .Front    {
+        color:grey;
+              }
+              
+    
+    h5        {
+        color:white;
+        padding-left:10px;
+        padding-right:10px;
+        font-size:150%;
+              }
+    
+    .welcome  {
+        padding-left:625px;
+              } 
+              
+    .cover    {
+        padding-left:520px;
+        padding-top:10px;
+        padding-bottom:10px;
+        margin:5px solid grey;
+              }
+              
 </style>
 
 <body>
     <nav>
         <div class="Nav">
-            <ul>
+            <ul class="nav nav-tabs">
                 <li>
-                    <a class="Home-page-link" href="#">Home</a>
+                    <a class="Home-page-link" href="http://wb18.koding.io/">Home</a>
+                </li>
+                
+                <li> 
+                    <a class="Calender-page-link" href="https://www.google.com/calendar/render?pli=1#main_7">Calender</a>
+                </li>
+                <li>
+                    <a class="Find-College-page-link" href="http://www.playbuzz.com/annden10/what-hobby-should-you-have">Find College</a>
                 </li>
                 <li> 
-                    <a class="Calender-page-link" href="#">Calender</a>
-                </li>
-                <li>
-                    <a class="Find-College-page-link" href="#">Find College</a>
-                </li>
-                <li> 
-                    <a class="Financial-Aid-page-link" href="#">Financial Aid</a>
+                    <a class="Financial-Aid-page-link" href="http://www.usnews.com/education/best-colleges/paying-for-college/articles/2015/07/27/quiz-test-your-knowledge-of-financial-aid-acronyms">Financial Aid</a>
                 </li>
                 <li> 
                     <a class="Notifacation-page-link" href="#">Notifacation</a>
                 </li>
                 <li> 
-                    <a class="Message-page-link" href="#">Message</a>
+                    <a class="Message-page-link" href="https://mail.google.com">Message</a>
                 </li>
             </ul>
         </div>
     </nav>
-        <div class="Logo">
-            <h1>College Me</h1>
-       </div>
-       
-       <div id="Greeting">
-            <h3>Welcome to College Me</h3>
+      
+       <div class="welcome">
+            <h2>Welcome to College Me</h2>
        </div>
     
-       <div class="icon">
-            <ul class=nav nav-tabs>
-                <li class="active">
-                        <a class="Home-page-link" href="#"><img src="http://www.i2clipart.com/cliparts/9/4/e/c/clipart-home-icon-512x512-94ec.png" width="45" height="45"></a> 
+ 
+        <div>
+           <h5>"College Me" is an application/website that allows students to find the right college for them without 
+           worring about finacial aid. This will be able to give a questionnaire that will direct the student to the 
+           college that is specialized in that paticular area.</h5>
+        </div>
+        
+        <div class="cover">
+            <img src="http://media.cmgdigital.com/shared/img/photos/2012/08/12/af/57/slideshow_1002357148_052112spelman01.jpg">
+       </div>
+       
+       
+        <div class="Major">
+            <h2>Finding Your Major</h2>
+        </div>
+        
+        <div>
+            <h2>What are you interested in?</h2>
+            
+                <h5>Finding a major should not just be able making money, it should be about something that you love doing and wont mind doing it for a career even if its a subject like math or even biology.
+                a major can vary from person to person based on their diffrent likings and also personality in most cases. When your able to do something for the rest of your life it takes the thougt of 'just work' 
+                to a dream job that you would want to pursue.</h5>
+            
+            <p>When finding a major or minor your intrest can start with hobbies that you find intresting.<a href="http://www.playbuzz.com/annden10/what-hobby-should-you-have">Click Me</a> to find your hobbies</p>   
+            
+        </div>
+     
+        <div class="aid">
+        
+            <h2>Financial Aid</h2>
+            
+        </div>
+        
+        <div>
+            <h2>What are the benifits of financial aid?</h2>
+            
+            <h5>Students can benifit from finacial aid not only to pay for school but future situations that could inflict debt or anything to interfere with his or her after college experiances.</h5>
+            
+            <p>Finacial aid can vary from person to person, but the real key to financial aid is to identify which is 
+            right for you.<a href="http://www.usnews.com/education/best-colleges/paying-for-college/articles/2015/07/27/quiz-test-your-knowledge-of-financial-aid-acronyms">Click Me</a> to find out how you can figure out your financial aid</p>
+        </div>
+            
+        <div class="col_tittle">
+        
+        <h1>Colleges</h1>
+            
+        </div>
+            
+       
+            <div id=list>
+                <div class="col-md-3">
+                    <h1> Sports </h1>
+                        <ul> 
+                            <li>
+                                <a href="https://www.depaul.edu/"> DePaul University </a> 
+                            </li>
+                    
+                            <li>
+                                <a href="https://duke.edu/"> Duke University </a>
+                            </li>
+                        
+                            <li>
+                                <a href="http://www.eiu.edu/"> Eastern Illinois University</a>
+                            </li>
+                        
+                            <li>
+                                <a href="http://www.lewisu.edu/"> Lewis University</a>
+                            </li>
+                        
+                            <li>
+                                <a href="http://niu.edu/students.shtml"> Northen Illinois University</a>
+                            </li>
+
+                        </ul>
+                </div>
+            </div>
+        
+            <div id=list2>
+                <div class="col-md-3">
+                    <h1> Counseling </h1>
+                        <ul>
+                            <li>
+                                <a href="http://www.post.edu/">Post University </a> 
+                            </li> 
+                            
+                            <li> 
+                                <a href="http://www.scitraining.com/"> Stratford Career Institite</a>
+                            </li>
+                        
+                            <li>
+                                <a href="http://psychology.illinoisstate.edu/cc/"> Psychology at Illinois State</a>
+                            </li>
+                        
+                            <li> 
+                                <a href="http://webs.purduecal.edu/gradschool/"> Purdue University</a>
+                            </li>
+                        
+                            <li>
+                                <a href="https://www.cmich.edu/colleges/chsbs/Psychology/Graduate/Pages/default.aspx"> Central Michigan University </a>
+                            </li>
+                        </ul>
+                </div>
+            </div>
+ 
+            <div id=list3>
+                <div class="col-md-3">
+                    <h1> Fashion </h1> 
+                        <ul>
+                            <li> 
+                                <a href="https://www.artinstitutes.edu/chicago"> Illinios Insitute of Art </a>
+        
+                            </li> 
+                        
+                            <li> 
+                                <a href="http://www.colum.edu/"> Columbia College Chicago </a>
+                            </li>
+                        
+                            <li> 
+                                <a href="http://www.saic.edu/index.html"> School of Art Institute of Chicago</a>
+                            </li>
+                        
+                            <li>
+                                <a href="http://www.cod.edu/"> College of DuPage</a>
+                            </li>
+                        
+                            <li>
+                                <a href="http://www.dom.edu/"> Dominican University </a>
+                            </li>
+                        
+                        </ul>
+                    </div>    
+            </div>
+     
+            <div id= list4>
+                <div class="col-md-3">
+                    <h1> Cooking </h1>
+                        <ul> 
+                            <li> 
+                                <a href="http://www.chefs.edu/chicago"> Le Cordon Bleu </a>
+                            </li>
+                        
+                            <li> 
+                                <a href="http://www.robertmorris.edu/"> Robert Morris College </a> 
+                            </li>
+                        
+                            <li> 
+                                <a href="http://go.kaplanuniversity.edu/?source=430103&Ve=61340&CCK=2522758823&QTR=ZZf0Za20134963Zg172Zw6Zm807Zc204152256Zs1483ZZ&NS_templateType=main&listingType=ClickOnlyListing&BLUID=2015080410321592548980003&CLK=983150804103320119&ctSite=true&NS_templateName=enhancedListing&CCID=20134963204152256"> Kaplan University</a>
+                            </li>
+                        
+                            <li> 
+                                <a href="http://www.pennfoster.edu/enrolltoday/index.html?&qscck=2522762023&qtr=zzf0za20134963zg172zw6zm807zc204152256zs1483zz&bluid=2015080410333476140245004&clk=384150804103450193&ccid=20134963204152256"> Penn Foster Career School</a>
+                            </li>
+                        
+                            <li>
+                                <a href="https://wsu.edu/"> Washington State University</a>
+                            </li>
+                        </ul>
+                </div>        
+            </div>
+           
+       
+         <div class="Names">
+          <h4>Designed by Wesley, Michael, Jasmine, Kianna, and Jimetrius</h4>
+       </div>
+       
+        <div class="icon">
+            <ul class="nav nav-pills">
+                <li>
+                        <a class="Home-page-link" href="http://wb18.koding.io/"><img src="http://www.i2clipart.com/cliparts/9/4/e/c/clipart-home-icon-512x512-94ec.png" width="45" height="45"></a> 
                 </li>
             
                 <li>
-                        <a class="Calender-page-link" href="#"><img src="http://www.clipartlord.com/wp-content/uploads/2013/09/calendar3.png" width="50" height="50"></a>
+                        <a class="Calender-page-link" href="https://www.google.com/calendar/render?pli=1#main_7"><img src="http://www.clipartlord.com/wp-content/uploads/2013/09/calendar3.png" width="50" height="50"></a>
                 </li>
             
-                <li class="active">
-                        <a class="Find-College-page-link" href="#"><img src="http://www.clipartlord.com/wp-content/uploads/2013/07/earth10.png" width="50" height="50"></a>
+                <li>
+                        <a class="Find-College-page-link" href="http://www.playbuzz.com/annden10/what-hobby-should-you-have"><img src="http://www.clipartlord.com/wp-content/uploads/2013/07/earth10.png" width="50" height="50"></a>
                 </li>
            
                 <li>
-                        <a class="Financial-Aid-page-link" href="#"><img src="http://www.clipartbest.com/cliparts/yio/eBr/yioeBr5RT.jpeg" width="50" height="50"></a>
+                        <a class="Financial-Aid-page-link" href="http://www.usnews.com/education/best-colleges/paying-for-college/articles/2015/07/27/quiz-test-your-knowledge-of-financial-aid-acronyms"><img src="http://www.clipartbest.com/cliparts/yio/eBr/yioeBr5RT.jpeg" width="50" height="46"></a>
                 </li>
            
-                <li class="active">
+                <li>
                         <a class="Notifacation-page-link" href="#"><img src="http://images.clipshrine.com/download/wheel/large-Bell-Icon-0-3825.png" width="47.5" height="47.5"></a>
                 </li>
             
                 <li>
-                        <a class="Message-page-link" href="#"><img src="https://cdn2.iconfinder.com/data/icons/flat-web/512/716986-mail-512.png" width="50" height="50"></a>
+                        <a class="Message-page-link" href="https://mail.google.com"><img src="https://cdn2.iconfinder.com/data/icons/flat-web/512/716986-mail-512.png" width="50" height="50"></a>
                 </li>  
             </ul>
-       </div>
+        </div>
 
-       <div>
-           <p title="College Me"> "College Me is an application/website that allows students to find the right college for them without 
-           worring about finacial aid. This will be able to give a questionare that will direct the studet to the 
-           college that is specialized in that paticular area" </p>
-       </div>
-       
-       <div class="Names">
-          <h4> "Designed by Wesley, Michael, Jasmine, Kianna," </h4>
-       </div>
-       
-        <div id=list>
-            <div class="col-md-4">
-                <h1> Sports </h1>
-                    <ul> 
-                        <li>
-                            <a href="https://www.depaul.edu/"> DePaul University </a> 
-                        </li>
-                    
-                        <li>
-                            <a href="https://duke.edu/"> Duke University </a>
-                        </li>
-                    </ul>
-            </div>
-        </div>
-        
-        <div id=list2>
-            <div class="col-md-3">
-                <h1> Counseling </h1>
-                    <ul>
-                        <li>
-                            <a href="www.post.edu/">Post University </a> 
-                        </li> 
-                        
-                        <li> 
-                            <a href="www.scitraining.com/"> Stratford Career Institite</a>
-                        </li>
-                    </ul>
-            </div>
-        </div>
- 
-        <div id=list3>
-            
-                <h1> Fashion </h1> 
-                    <ul>
-                        <li> 
-                            <a href="www.artinstitutes.edu/chicago"> Illinios Insitute of Art </a>
-        
-                        </li> 
-                        
-                        <li> 
-                            <a href="www.colum.edu/"> Columbia College Chicago </a>
-                        </li>
-                    </ul>
-        </div>
-     
-        <div id= list4>
-                <h1> Cooking </h1>
-                    <ul> 
-                        <li> 
-                            <a href="http://www.chefs.edu/chicago"> Le Cordon Bleu </a>
-                        </li>
-                        <li> 
-                        <a href="www.robertmorris.edu"> Robert Morris College </a> 
-                        </li>
-                    </ul>
-        </div>
-     
-        <div>
-           
-        </div>
-     
     </body>
 
 </html>
